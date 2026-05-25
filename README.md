@@ -19,13 +19,13 @@ To compile and run this project, you need a C compiler and Python installed.
 3. **Python Packages:**
    pip install numpy PyQt5
 
-##Installation & Build Instructions
-**1.Clone The Repository 
+## Installation & Build Instructions
+** 1.Clone The Repository 
     git clone [https://github.com/aliarhanila/RayTracer-CustomEngine.git](https://      github.com/aliarhanila/RayTracer-CustomEngine.git)
     cd RayTracer-CustomEngine
 
-**2. Compile the C Engine:
+** 2. Compile the C Engine:
    gcc -shared -o libengine.so -fPIC engine.c -O3 -ffast-math -fopenmp
 
-**3. Run the Application:
+** 3. Run the Application:
 python run_gui.py
