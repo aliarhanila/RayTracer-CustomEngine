@@ -31,7 +31,20 @@ To compile and run this project, you need a C compiler and Python installed.
 python run_gui.py
 
 ## Controls
-**Hold Right-Click + Move Mouse: Look around**
-**W / S: Move Forward / Backward**
-**A / D: Move Left / Right**
-**Space / Shift: Move Up / Down**
+'''
+Hold Right-Click + Move Mouse: Look around  
+
+W / S: Move Forward / Backward  
+
+A / D: Move Left / Right  
+
+Space / Shift: Move Up / Down  
+
+
+# Project Structure
+
+   engine.c: Handles all mathematical operations, ray-object intersections, and light calculations.  
+   
+   render/renderer.py: Acts as a bridge using ctypes to pass data between Python and the compiled C library.  
+   
+   gui/gui_qt.py: Contains the PyQt5 frontend, input handling, game loop, and JSON serialization logic
