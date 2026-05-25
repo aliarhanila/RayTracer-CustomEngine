@@ -31,7 +31,7 @@ To compile and run this project, you need a C compiler and Python installed.
 python run_gui.py
 
 ## Controls
-Hold Right-Click + Move Mouse: Look around
-W / S: Move Forward / Backward
-A / D: Move Left / Right
-Space / Shift: Move Up / Down
+**Hold Right-Click + Move Mouse: Look around**
+**W / S: Move Forward / Backward**
+**A / D: Move Left / Right**
+**Space / Shift: Move Up / Down**
